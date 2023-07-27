@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+}
+.container {
+  border-radius: 35px;
+  background-color: whitesmoke;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-left: 450px;
+  margin-right: 450px;
+  margin-top: 55px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#title {
+  font-size: 50px;
+}
+#inputText {
+  width: 400px;
+  height: 46px;
+  border: 1px solid black;
+  outline: none;
+  font-size: 25px;
+  vertical-align: middle;
+  border-radius: 10px;
+  color: rgb(1, 18, 1);
+}
+#addToDo {
+  width: 100px;
+  height: 50px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(46, 89, 187);
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+}
+#addToDo:active {
+  background-color: rgb(31, 88, 222);
+}
+#clearToDo {
+  width: 100px;
+  height: 50px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(161, 20, 20);
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+}
+#clearToDo:active {
+  background-color: red;
+}
+.planStil {
+  border-radius: 5px;
+  display: inline-block;
+  padding: 8px 12px 8px 12px;
+  margin: 15px;
+  width: 20%;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: #071952;
+  background-color: #e3caa5;
+}
+.planStil:active {
+  background-color: #ad8b73;
+}
+.planStil:hover {
+  border: 2px solid #ceab93;
+}
+.to-dos {
+  margin-top: 20px;
+}
